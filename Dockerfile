@@ -10,4 +10,7 @@ ENV TZ=Asia/Kolkata
 
 RUN apt-get install -y curl
 RUN curl -sL https://deb.nodesource.com/setup_14.x | bash -
-RUN apt -qq install -y git aria2 wget curl busybox unzip unrar tar ffmpeg fakeroot build-essential nodejs
+RUN apt -qq install -y git aria2 wget curl busybox unzip unrar tar ffmpeg build-essential nodejs
+RUN npm install -g typescript
+
+
